@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Neo+Latina&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+  background: #fff;
+}
+
+.preloader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.letters {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  font-size: 50px;
+  color: #000;
+  font-weight: bold;
+  font-family: "Neo Latina", sans-serif;
+  margin-right: 50px;
+  animation: movement 600ms ease 0ms infinite alternate;
+}
+
+.letters:nth-child(1) {
+  margin-right: 50px;
+  animation: movement 600ms ease 0ms infinite alternate;
+}
+
+.letters:nth-child(2) {
+  margin-right: 50px;
+  animation: movement 630ms ease 0ms infinite alternate;
+}
+
+.letters:nth-child(3) {
+  margin-right: 50px;
+  animation: movement 660ms ease 0ms infinite alternate;
+}
+
+.letters:nth-child(4) {
+  margin-right: 50px;
+  animation: movement 690ms ease 0ms infinite alternate;
+  color: #ef2929;
+}
+
+.letters:nth-child(5) {
+  margin-right: 50px;
+  animation: movement 720ms ease 0ms infinite alternate;
+}
+
+.letters:nth-child(6) {
+  margin-right: 50px;
+  animation: movement 750ms ease 0ms infinite alternate;
+}
+
+.letters:nth-child(7) {
+  margin-right: 50px;
+  animation: movement 780ms ease 0ms infinite alternate;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.next-landing {
+  color: #000;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  font-family: "Neo Latina", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .letters {
+    font-size: 25px;
+    width: 22px;
+    margin-right: 25px;
+  }
+
+  .preloader {
+    margin-left: 1em;
+  }
+
+  .letters:nth-child(1) {
+    margin-right: 25px;
+    animation: movement 600ms ease 0ms infinite alternate;
+    width: 60px;
+    height: 60px;
+  }
+
+  .letters:nth-child(2) {
+    margin-right: 25px;
+    animation: movement 630ms ease 0ms infinite alternate;
+    width: 60px;
+    height: 60px;
+  }
+
+  .letters:nth-child(3) {
+    margin-right: 25px;
+    animation: movement 660ms ease 0ms infinite alternate;
+    width: 60px;
+    height: 60px;
+  }
+
+  .letters:nth-child(4) {
+    margin-right: 25px;
+    animation: movement 690ms ease 0ms infinite alternate;
+    width: 60px;
+    height: 60px;
+  }
+
+  .letters:nth-child(5) {
+    margin-right: 25px;
+    animation: movement 720ms ease 0ms infinite alternate;
+    width: 60px;
+    height: 60px;
+  }
+
+  .letters:nth-child(6) {
+    margin-right: 25px;
+    animation: movement 750ms ease 0ms infinite alternate;
+    width: 60px;
+    height: 60px;
+  }
+
+  .letters:nth-child(7) {
+    margin-right: 25px;
+    animation: movement 780ms ease 0ms infinite alternate;
+    width: 60px;
+    height: 60px;
+  }
+
+}
+
+@keyframes movement {
+  from {
+    transform: scale(1) translateY(10px);
+  }
+
+  to {
+    transform: scale(1.5) translateY(-25px);
+  }
+}
